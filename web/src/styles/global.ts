@@ -23,7 +23,12 @@ export default createGlobalStyle`
     font-weight: 500;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   button {
     cursor: pointer;
+    outline: none;
   }
 `;

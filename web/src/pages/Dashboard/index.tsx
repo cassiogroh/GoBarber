@@ -2,6 +2,8 @@ import React, { useCallback, useEffect, useState, useMemo } from 'react';
 import { isToday, format, parseISO, isAfter } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
 import DayPicker, { DayModifiers } from 'react-day-picker';
+import { FiClock, FiPower } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 import 'react-day-picker/lib/style.css'
 
 import api from '../../services/api';
@@ -22,7 +24,6 @@ import {
 } from './styles';
 
 import logoImg from '../../assets/logo.svg';
-import { FiClock, FiPower } from 'react-icons/fi';
 
 interface MonthAvailabilityItem {
   day: number;
@@ -131,7 +132,7 @@ const Dashboard: React.FC = () => {
             <img src={user.avatar_url} alt={user.name}/>
             <div>
               <span>Bem-vindo</span>
-              <strong>{user.name}</strong>
+              <Link to='/profile'><strong>{user.name}</strong></Link>
             </div>
           </Profile>
 
