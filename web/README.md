@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo" src="https://res.cloudinary.com/cassiogroh/image/upload/v1588625369/GoBarber/logo_iw1v9f.svg" width="200px">
+  <img alt="Logo" src="./src/assets/logo.svg" width="200px">
 </h1>
 
 <h3 align="center">
