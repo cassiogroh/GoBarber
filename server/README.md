@@ -9,23 +9,23 @@
 <p align="center">The best way to schedule your service!</p>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/cassiogroh/gobarber-api?color=%23FF9000">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/cassiogroh/gobarber-backend?color=%23FF9000">
 
   <a href="https://www.linkedin.com/in/cassiogroh/" target="_blank" rel="noopener noreferrer">
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-cassio%20groh-%23FF9000">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/cassiogroh/gobarber-api?color=%23FF9000">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/cassiogroh/gobarber-backend?color=%23FF9000">
 
-  <a href="https://github.com/cassiogroh/gobarber-api/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cassiogroh/gobarber-api?color=%23FF9000">
+  <a href="https://github.com/cassiogroh/gobarber-backend/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cassiogroh/gobarber-backend?color=%23FF9000">
   </a>
 
-  <a href="https://github.com/cassiogroh/gobarber-api/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/cassiogroh/gobarber-api?color=%23FF9000">
+  <a href="https://github.com/cassiogroh/gobarber-backend/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/cassiogroh/gobarber-backend?color=%23FF9000">
   </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/cassiogroh/gobarber-api?color=%23FF9000">
+  <img alt="GitHub" src="https://img.shields.io/github/license/cassiogroh/gobarber-backend?color=%23FF9000">
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@
 </p>
 
 <p id="insomniaButton" align="center">
-  <a href="https://insomnia.rest/run/?label=GoBarber%20-%20EliasGcf&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fcassiogroh%2Fgobarber-api%2Fmaster%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://insomnia.rest/run/?label=GoBarber%20-%20EliasGcf&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fcassiogroh%2Fgobarber-backend%2Fmaster%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
 ## 💇🏻‍♂️ About the project
@@ -88,7 +88,7 @@ Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomn
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/cassiogroh/gobarber-api.git && cd gobarber-api
+$ git clone https://github.com/cassiogroh/gobarber-backend.git && cd gobarber-backend
 ```
 
 **Follow the steps below**
@@ -135,14 +135,14 @@ $ yarn dev:server
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork cassiogroh/gobarber-api
+$ gh repo fork cassiogroh/gobarber-backend
 ```
 
 **Follow the steps below**
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd gobarber-api
+$ git clone your-fork-url && cd gobarber-backend
 
 # Create a branch with your feature
 $ git checkout -b my-feature
