@@ -25,8 +25,8 @@ class ListProviderAppointmentsService {
   public async execute({ provider_id, day, month, year }: Request): Promise<Appointment[]> {
     const cacheKey = `provider-appointments:${provider_id}-${year}-${month}-${day}`;
 
-    let appointments = await this.cacheProvider.recover<Appointment[]>(cacheKey);
-    // let appointments = null;
+    // let appointments = await this.cacheProvider.recover<Appointment[]>(cacheKey);
+    let appointments = null;
 
     if (!appointments) {
       appointments = await this.appointmentsRepository.findAllInDayFromProvider({

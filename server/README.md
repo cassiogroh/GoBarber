@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img alt="Logo" src="./tmp/logo.svg" width="200px">
+  <img alt="Logo" src=".github/logo.svg" width="200px">
 </h1>
 
 <h3 align="center">
-  Express Application for GoBarber project
+  API rest for GoBarber project
 </h3>
 
 <p align="center">The best way to schedule your service!</p>
@@ -12,7 +12,7 @@
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/cassiogroh/gobarber-backend?color=%23FF9000">
 
   <a href="https://www.linkedin.com/in/cassiogroh/" target="_blank" rel="noopener noreferrer">
-    <img alt="Made by" src="https://img.shields.io/badge/made%20by-cassio%20groh-%23FF9000">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-cassiogroh-%23FF9000">
   </a>
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/cassiogroh/gobarber-backend?color=%23FF9000">
@@ -36,24 +36,24 @@
   <a href="#-license">License</a>
 </p>
 
-<p id="insomniaButton" align="center">
-  <a href="https://insomnia.rest/run/?label=GoBarber%20-%20EliasGcf&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fcassiogroh%2Fgobarber-backend%2Fmaster%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+<p align="center">
+  <img alt="GoBarber" src=".github/mockup.jpg" width="70%">
 </p>
 
 ## 💇🏻‍♂️ About the project
 
-This api provides everything needed to organize appointments between the barbers and customers.
+This app provides everything needed to organize appointments between barbers and customers.
 
-Customers can choose the best time available to them.
+ - Customers can choose the best time available to them.
 
-Providers can see all their appointments, manage the times, also see if one client canceled the schedule.
+ - Providers can see all their appointments and manage their schedule.
 
-To see the **web client**, click here: [GoBarber API](https://github.com/cassiogroh/gobarber-web)<br />
-To see the **mobile client**, click here: [GoBarber Mobile](https://github.com/cassiogroh/gobarber-mobile)
+To see the **web client**, click here: [GoBarber Web](https://github.com/cassiogroh/GoBarber)<br />
+To see the **mobile client**, click here: [GoBarber Mobile](https://github.com/cassiogroh/GoBarber-mobile)
 
 ## 🚀 Technologies
 
-Technologies that I used to develop this api
+Technologies used to develop backend API
 
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -67,15 +67,22 @@ Technologies that I used to develop this api
 - [Jest](https://jestjs.io/)
 - [SuperTest](https://github.com/visionmedia/supertest)
 - [Husky](https://github.com/typicode/husky)
-- [Commitlint](https://github.com/conventional-changelog/commitlint)
-- [Commitizen](https://github.com/commitizen/cz-cli)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [EditorConfig](https://editorconfig.org/)
+
+Technologies used to develop frontend web
+ - [ReactJS](https://reactjs.org/)
+ - [Typescript](https://www.typescriptlang.org/)
+ - [Axios](https://github.com/axios/axios)
+ - [Styled-components](https://styled-components.com/)
+ - [Polished](https://polished.js.org/)
+ - [Date-fns](https://date-fns.org/)
+ - [React-day-picker](https://react-day-picker.js.org/)
+ - [React-icons](https://react-icons.github.io/react-icons/)
+ - [React-spring](https://www.react-spring.io/)
+ - [Jest](https://jestjs.io/)
+ - [Yup](https://www.npmjs.com/package/yup)
+ - [uuid v4](https://github.com/thenativeweb/uuidv4/)
 
 ## 💻 Getting started
-
-Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomniaButton) button
 
 ### Requirements
 
@@ -83,12 +90,12 @@ Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomn
 - [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
 - One instance of [PostgreSQL](https://www.postgresql.org/)
 
-> Obs.: I recommend using docker
+> Obs.: Docker recommended
 
-**Clone the project and access the folder**
+**Clone the API project and access the folder**
 
 ```bash
-$ git clone https://github.com/cassiogroh/gobarber-backend.git && cd gobarber-backend
+$ git clone https://github.com/cassiogroh/gobarber-backend && cd gobarber-backend
 ```
 
 **Follow the steps below**
@@ -103,15 +110,15 @@ $ yarn
 $ cp .env.example .env
 
 # Create the instance of postgreSQL using docker
-$ docker run --name gobarber-postgres -e POSTGRES_USER=docker \
-              -e POSTGRES_DB=gobarber -e POSTGRES_PASSWORD=docker \
+$ docker run --name gobarber-backend-postgres -e POSTGRES_USER=docker \
+              -e POSTGRES_DB=gostack_gobarber-backend -e POSTGRES_PASSWORD=docker \
               -p 5432:5432 -d postgres
 
 # Create the instance of mongoDB using docker
-$ docker run --name gobarber-mongodb -p 27017:27017 -d -t mongo
+$ docker run --name mongodb -p 27017:27017 -d -t mongo
 
 # Create the instance of redis using docker
-$ docker run --name gobarber-redis -p 6379:6379 -d -t redis:alpine
+$ docker run --name redis -p 6379:6379 -d -t redis:alpine
 
 # Make a copy of 'ormconfig.example.json' to 'ormconfig.json'
 # and set the values, if they are not filled,
@@ -124,16 +131,28 @@ $ yarn typeorm migration:run
 # To finish, run the api service
 $ yarn dev:server
 
-# Well done, project is started!
+# Well done, server started!
+
+# Clone frontend web
+$ git clone https://github.com/cassiogroh/gobarber-backend && cd gobarber-backend
+
+# Install dependecies
+$ yarn install
+
+# Start react app
+$ yarn start
+
+# Well done, project is running!
+
 ```
+
 
 ## 🤔 How to contribute
 
-**Make a fork of this repository**
+**Fork this repository**
 
 ```bash
-# Fork using GitHub official command line
-# If you don't have the GitHub CLI, use the web site to do that.
+# Fork using GitHub command line or trhough website
 
 $ gh repo fork cassiogroh/gobarber-backend
 ```

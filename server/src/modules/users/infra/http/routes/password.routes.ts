@@ -3,7 +3,6 @@ import { celebrate, Segments, Joi } from 'celebrate';
 
 import ForgotPasswordController from '../controllers/ForgotPasswordController';
 import ResetPasswordController from '../controllers/ResetPasswordController';
-import { options } from '@hapi/joi';
 
 const passwordRouter = Router();
 const forgotPasswordController = new ForgotPasswordController();
