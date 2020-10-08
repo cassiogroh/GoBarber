@@ -9,23 +9,23 @@
 <p align="center">The best way to schedule your service!</p>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/cassiogroh/gobarber-backend?color=%23FF9000">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/cassiogroh/GoBarber-API?color=%23FF9000">
 
   <a href="https://www.linkedin.com/in/cassiogroh/" target="_blank" rel="noopener noreferrer">
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-cassiogroh-%23FF9000">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/cassiogroh/gobarber-backend?color=%23FF9000">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/cassiogroh/GoBarber-API?color=%23FF9000">
 
-  <a href="https://github.com/cassiogroh/gobarber-backend/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cassiogroh/gobarber-backend?color=%23FF9000">
+  <a href="https://github.com/cassiogroh/GoBarber-API/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cassiogroh/GoBarber-API?color=%23FF9000">
   </a>
 
-  <a href="https://github.com/cassiogroh/gobarber-backend/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/cassiogroh/gobarber-backend?color=%23FF9000">
+  <a href="https://github.com/cassiogroh/GoBarber-API/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/cassiogroh/GoBarber-API?color=%23FF9000">
   </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/cassiogroh/gobarber-backend?color=%23FF9000">
+  <img alt="GitHub" src="https://img.shields.io/github/license/cassiogroh/GoBarber-API?color=%23FF9000">
 </p>
 
 <p align="center">
@@ -95,7 +95,7 @@ Technologies used to develop frontend web
 **Clone the API project and access the folder**
 
 ```bash
-$ git clone https://github.com/cassiogroh/gobarber-backend && cd gobarber-backend
+$ git clone https://github.com/cassiogroh/GoBarber-API && cd GoBarber-API
 ```
 
 **Follow the steps below**
@@ -110,8 +110,8 @@ $ yarn
 $ cp .env.example .env
 
 # Create the instance of postgreSQL using docker
-$ docker run --name gobarber-backend-postgres -e POSTGRES_USER=docker \
-              -e POSTGRES_DB=gostack_gobarber-backend -e POSTGRES_PASSWORD=docker \
+$ docker run --name GoBarber-API-postgres -e POSTGRES_USER=docker \
+              -e POSTGRES_DB=gostack_GoBarber-API -e POSTGRES_PASSWORD=docker \
               -p 5432:5432 -d postgres
 
 # Create the instance of mongoDB using docker
@@ -134,7 +134,7 @@ $ yarn dev:server
 # Well done, server started!
 
 # Clone frontend web
-$ git clone https://github.com/cassiogroh/gobarber-backend && cd gobarber-backend
+$ git clone https://github.com/cassiogroh/GoBarber && cd GoBarber
 
 # Install dependecies
 $ yarn install
@@ -154,14 +154,14 @@ $ yarn start
 ```bash
 # Fork using GitHub command line or trhough website
 
-$ gh repo fork cassiogroh/gobarber-backend
+$ gh repo fork cassiogroh/GoBarber-API
 ```
 
 **Follow the steps below**
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd gobarber-backend
+$ git clone your-fork-url && cd GoBarber-API
 
 # Create a branch with your feature
 $ git checkout -b my-feature
