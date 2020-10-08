@@ -3,29 +3,29 @@
 </h1>
 
 <h3 align="center">
-  Express Application for GoBarber project
+  Frontend web application for GoBarber project
 </h3>
 
 <p align="center">The best way to schedule your service!</p>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/cassiogroh/gobarber-web?color=%23FF9000">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/cassiogroh/GoBarber?color=%23FF9000">
 
   <a href="https://www.linkedin.com/in/cassiogroh/" target="_blank" rel="noopener noreferrer">
-    <img alt="Made by" src="https://img.shields.io/badge/made%20by-cassio%20groh-%23FF9000">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-cassiogroh-%23FF9000">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/cassiogroh/gobarber-web?color=%23FF9000">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/cassiogroh/GoBarber?color=%23FF9000">
 
-  <a href="https://github.com/cassiogroh/gobarber-web/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cassiogroh/gobarber-web?color=%23FF9000">
+  <a href="https://github.com/cassiogroh/GoBarber/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cassiogroh/GoBarber?color=%23FF9000">
   </a>
 
-  <a href="https://github.com/cassiogroh/gobarber-web/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/cassiogroh/gobarber-web?color=%23FF9000">
+  <a href="https://github.com/cassiogroh/GoBarber/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/cassiogroh/GoBarber?color=%23FF9000">
   </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/cassiogroh/gobarber-web?color=%23FF9000">
+  <img alt="GitHub" src="https://img.shields.io/github/license/cassiogroh/GoBarber?color=%23FF9000">
 </p>
 
 <p align="center">
@@ -36,24 +36,24 @@
   <a href="#-license">License</a>
 </p>
 
-<p id="insomniaButton" align="center">
-  <a href="https://insomnia.rest/run/?label=GoBarber%20-%20EliasGcf&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fcassiogroh%2Fgobarber-api%2Fmaster%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+<p align="center">
+  <img alt="GoBarber" src="./public/mockup.jpg" width="100%">
 </p>
 
 ## 💇🏻‍♂️ About the project
 
-This api provides everything needed to organize appointments between the barbers and customers.
+This app provides everything needed to organize appointments between barbers and customers.
 
-Customers can choose the best time available to them.
+ - Customers can choose the best time available to them.
 
-Providers can see all their appointments, manage the times, also see if one client canceled the schedule.
+ - Providers can see all their appointments and manage their schedule.
 
 To see the **API client**, click here: [GoBarber API](https://github.com/cassiogroh/gobarber-backend)<br />
 To see the **mobile client**, click here: [GoBarber Mobile](https://github.com/cassiogroh/gobarber-mobile)
 
 ## 🚀 Technologies
 
-Technologies that I used to develop this api
+Technologies used to develop backend API
 
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -67,15 +67,27 @@ Technologies that I used to develop this api
 - [Jest](https://jestjs.io/)
 - [SuperTest](https://github.com/visionmedia/supertest)
 - [Husky](https://github.com/typicode/husky)
-- [Commitlint](https://github.com/conventional-changelog/commitlint)
+<!-- - [Commitlint](https://github.com/conventional-changelog/commitlint)
 - [Commitizen](https://github.com/commitizen/cz-cli)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
-- [EditorConfig](https://editorconfig.org/)
+- [EditorConfig](https://editorconfig.org/) -->
+
+Technologies used to develop frontend web
+ - [ReactJS](https://reactjs.org/)
+ - [Typescript](https://www.typescriptlang.org/)
+ - [Axios](https://github.com/axios/axios)
+ - [Styled-components](https://styled-components.com/)
+ - [Polished](https://polished.js.org/)
+ - [Date-fns](https://date-fns.org/)
+ - [React-day-picker](https://react-day-picker.js.org/)
+ - [React-icons](https://react-icons.github.io/react-icons/)
+ - [React-spring](https://www.react-spring.io/)
+ - [Jest](https://jestjs.io/)
+ - [Yup](https://www.npmjs.com/package/yup)
+ - [uuid v4](https://github.com/thenativeweb/uuidv4/)
 
 ## 💻 Getting started
-
-Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomniaButton) button
 
 ### Requirements
 
@@ -88,7 +100,7 @@ Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomn
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/cassiogroh/gobarber-web.git && cd gobarber-web
+$ git clone https://github.com/cassiogroh/GoBarber.git && cd GoBarber
 ```
 
 **Follow the steps below**
@@ -129,20 +141,20 @@ $ yarn dev:server
 
 ## 🤔 How to contribute
 
-**Make a fork of this repository**
+**Fork this repository**
 
 ```bash
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork cassiogroh/gobarber-web
+$ gh repo fork cassiogroh/GoBarber
 ```
 
 **Follow the steps below**
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd gobarber-api
+$ git clone your-fork-url && cd GoBarber
 
 # Create a branch with your feature
 $ git checkout -b my-feature

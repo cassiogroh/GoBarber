@@ -158,7 +158,10 @@ const Dashboard: React.FC = () => {
           <NextAppointment>
             <strong>Próximo agendamento</strong>
             <div>
-              <img src={nextAppointments.user.avatar_url} alt={nextAppointments.user.name} />
+              {nextAppointments.user.avatar_url ?
+              <img src={nextAppointments.user.avatar_url} alt={nextAppointments.user.name} /> :
+              <FiUser size={80} />
+              }
 
               <strong>{nextAppointments.user.name}</strong>
               <span>
@@ -182,7 +185,10 @@ const Dashboard: React.FC = () => {
               </span>
 
               <div>
-                <img src={appointment.user.avatar_url} alt={appointment.user.name} />
+                {appointment.user.avatar_url ?
+                <img src={appointment.user.avatar_url} alt={appointment.user.name} /> :
+                <FiUser size={56} />
+                }
 
                 <strong>{appointment.user.name}</strong>
               </div>
@@ -203,7 +209,10 @@ const Dashboard: React.FC = () => {
               </span>
 
               <div>
-                <img src={appointment.user.avatar_url} alt={appointment.user.name} />
+                {appointment.user.avatar_url ?
+                <img src={appointment.user.avatar_url} alt={appointment.user.name} /> :
+                <FiUser size={56} />
+                }
 
                 <strong>{appointment.user.name}</strong>
               </div>

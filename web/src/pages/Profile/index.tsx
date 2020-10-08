@@ -111,7 +111,7 @@ const Profile: React.FC = () => {
 
         addToast({
           type: 'success',
-          title: 'Avatar atualizdo!',
+          title: 'Avatar atualizado!',
         });
       })
     }
