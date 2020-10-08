@@ -53,21 +53,6 @@ To see the **mobile client**, click here: [GoBarber Mobile](https://github.com/c
 
 ## 🚀 Technologies
 
-Technologies used to develop backend API
-
-- [Node.js](https://nodejs.org/en/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Express](https://expressjs.com/pt-br/)
-- [Multer](https://github.com/expressjs/multer)
-- [TypeORM](https://typeorm.io/#/)
-- [JWT-token](https://jwt.io/)
-- [uuid v4](https://github.com/thenativeweb/uuidv4/)
-- [PostgreSQL](https://www.postgresql.org/)
-- [Date-fns](https://date-fns.org/)
-- [Jest](https://jestjs.io/)
-- [SuperTest](https://github.com/visionmedia/supertest)
-- [Husky](https://github.com/typicode/husky)
-
 Technologies used to develop frontend web
  - [ReactJS](https://reactjs.org/)
  - [Typescript](https://www.typescriptlang.org/)
@@ -78,6 +63,7 @@ Technologies used to develop frontend web
  - [React-day-picker](https://react-day-picker.js.org/)
  - [React-icons](https://react-icons.github.io/react-icons/)
  - [React-spring](https://www.react-spring.io/)
+ - [Unform](https://github.com/Rocketseat/unform)
  - [Jest](https://jestjs.io/)
  - [Yup](https://www.npmjs.com/package/yup)
  - [uuid v4](https://github.com/thenativeweb/uuidv4/)
