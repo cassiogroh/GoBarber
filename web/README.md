@@ -37,7 +37,7 @@
 </p>
 
 <p align="center">
-  <img alt="GoBarber" src="./public/mockup.jpg" width="100%">
+  <img alt="GoBarber" src="./public/mockup.jpg" width="70%">
 </p>
 
 ## 💇🏻‍♂️ About the project
@@ -67,11 +67,6 @@ Technologies used to develop backend API
 - [Jest](https://jestjs.io/)
 - [SuperTest](https://github.com/visionmedia/supertest)
 - [Husky](https://github.com/typicode/husky)
-<!-- - [Commitlint](https://github.com/conventional-changelog/commitlint)
-- [Commitizen](https://github.com/commitizen/cz-cli)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [EditorConfig](https://editorconfig.org/) -->
 
 Technologies used to develop frontend web
  - [ReactJS](https://reactjs.org/)
@@ -95,12 +90,12 @@ Technologies used to develop frontend web
 - [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
 - One instance of [PostgreSQL](https://www.postgresql.org/)
 
-> Obs.: I recommend using docker
+> Obs.: Docker recommended
 
-**Clone the project and access the folder**
+**Clone the API project and access the folder**
 
 ```bash
-$ git clone https://github.com/cassiogroh/GoBarber.git && cd GoBarber
+$ git clone https://github.com/cassiogroh/gobarber-backend && cd gobarber-backend
 ```
 
 **Follow the steps below**
@@ -116,14 +111,14 @@ $ cp .env.example .env
 
 # Create the instance of postgreSQL using docker
 $ docker run --name gobarber-postgres -e POSTGRES_USER=docker \
-              -e POSTGRES_DB=gobarber -e POSTGRES_PASSWORD=docker \
+              -e POSTGRES_DB=gostack_gobarber -e POSTGRES_PASSWORD=docker \
               -p 5432:5432 -d postgres
 
 # Create the instance of mongoDB using docker
-$ docker run --name gobarber-mongodb -p 27017:27017 -d -t mongo
+$ docker run --name mongodb -p 27017:27017 -d -t mongo
 
 # Create the instance of redis using docker
-$ docker run --name gobarber-redis -p 6379:6379 -d -t redis:alpine
+$ docker run --name redis -p 6379:6379 -d -t redis:alpine
 
 # Make a copy of 'ormconfig.example.json' to 'ormconfig.json'
 # and set the values, if they are not filled,
@@ -136,8 +131,21 @@ $ yarn typeorm migration:run
 # To finish, run the api service
 $ yarn dev:server
 
-# Well done, project is started!
+# Well done, server started!
+
+# Clone frontend web
+$ git clone https://github.com/cassiogroh/GoBarber && cd GoBarber
+
+# Install dependecies
+$ yarn install
+
+# Start react app
+$ yarn start
+
+# Well done, project is running!
+
 ```
+
 
 ## 🤔 How to contribute
 
