@@ -152,8 +152,7 @@ $ yarn start
 **Fork this repository**
 
 ```bash
-# Fork using GitHub official command line
-# If you don't have the GitHub CLI, use the web site to do that.
+# Fork using GitHub command line or trhough website
 
 $ gh repo fork cassiogroh/GoBarber
 ```
