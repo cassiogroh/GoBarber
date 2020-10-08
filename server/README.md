@@ -53,7 +53,7 @@ To see the **mobile client**, click here: [GoBarber Mobile](https://github.com/c
 
 ## 🚀 Technologies
 
-Technologies used to develop backend API
+Technologies used to develop this API
 
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -67,20 +67,6 @@ Technologies used to develop backend API
 - [Jest](https://jestjs.io/)
 - [SuperTest](https://github.com/visionmedia/supertest)
 - [Husky](https://github.com/typicode/husky)
-
-Technologies used to develop frontend web
- - [ReactJS](https://reactjs.org/)
- - [Typescript](https://www.typescriptlang.org/)
- - [Axios](https://github.com/axios/axios)
- - [Styled-components](https://styled-components.com/)
- - [Polished](https://polished.js.org/)
- - [Date-fns](https://date-fns.org/)
- - [React-day-picker](https://react-day-picker.js.org/)
- - [React-icons](https://react-icons.github.io/react-icons/)
- - [React-spring](https://www.react-spring.io/)
- - [Jest](https://jestjs.io/)
- - [Yup](https://www.npmjs.com/package/yup)
- - [uuid v4](https://github.com/thenativeweb/uuidv4/)
 
 ## 💻 Getting started
 
@@ -110,8 +96,8 @@ $ yarn
 $ cp .env.example .env
 
 # Create the instance of postgreSQL using docker
-$ docker run --name GoBarber-API-postgres -e POSTGRES_USER=docker \
-              -e POSTGRES_DB=gostack_GoBarber-API -e POSTGRES_PASSWORD=docker \
+$ docker run --name gobarber-postgres -e POSTGRES_USER=docker \
+              -e POSTGRES_DB=gostack_gobarber -e POSTGRES_PASSWORD=docker \
               -p 5432:5432 -d postgres
 
 # Create the instance of mongoDB using docker
