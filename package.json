@@ -7,7 +7,7 @@
   "repository": "https://github.com/cassiogroh/GoBarber.git",
   "author": "cassiogroh <cassio_groh@hotmail.com>",
   "scripts": {
-    "build:web": "cd ./packages/web && yarn run react-scripts build",
+    "build:web": "cd ./packages/web && yarn build",
     "build": "cd ./packages/server && yarn build",
     "start": "cd ./packages/server && yarn start"
   },

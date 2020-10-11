@@ -1,10 +1,6 @@
 <h1 align="center">
-  <img alt="Logo" src="./src/assets/logo.svg" width="200px">
+  <img alt="Logo" src=".github/logo.svg" width="200px">
 </h1>
-
-<h3 align="center">
-  Frontend web application for GoBarber project
-</h3>
 
 <p align="center">The best way to schedule your service!</p>
 
@@ -37,7 +33,7 @@
 </p>
 
 <p align="center">
-  <img alt="GoBarber" src="./public/mockup.jpg" width="70%">
+  <img alt="GoBarber" src=".github/mockup.jpg" width="70%">
 </p>
 
 ## 💇🏻‍♂️ About the project
@@ -48,10 +44,22 @@ This app provides everything needed to organize appointments between barbers and
 
  - Providers can see all their appointments and manage their schedule.
 
-To see the **API client**, click here: [GoBarber API](https://github.com/cassiogroh/gobarber-backend)<br />
-To see the **mobile client**, click here: [GoBarber Mobile](https://github.com/cassiogroh/gobarber-mobile)
-
 ## 🚀 Technologies
+
+Technologies used to develop API
+
+- [Node.js](https://nodejs.org/en/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Express](https://expressjs.com/pt-br/)
+- [Multer](https://github.com/expressjs/multer)
+- [TypeORM](https://typeorm.io/#/)
+- [JWT-token](https://jwt.io/)
+- [uuid v4](https://github.com/thenativeweb/uuidv4/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Date-fns](https://date-fns.org/)
+- [Jest](https://jestjs.io/)
+- [SuperTest](https://github.com/visionmedia/supertest)
+- [Husky](https://github.com/typicode/husky)
 
 Technologies used to develop frontend web
  - [ReactJS](https://reactjs.org/)
@@ -68,6 +76,19 @@ Technologies used to develop frontend web
  - [Yup](https://www.npmjs.com/package/yup)
  - [uuid v4](https://github.com/thenativeweb/uuidv4/)
 
+ Technologies used to develop frontend mobile
+ - [React-native](https://reactnative.dev/)
+ - [Typescript](https://www.typescriptlang.org/)
+ - [Axios](https://github.com/axios/axios)
+ - [Styled-components](https://styled-components.com/)
+ - [Date-fns](https://date-fns.org/)
+ - [React-native-image-picker](https://www.npmjs.com/package/react-native-image-picker))
+ - [React-native-datetime-picker](https://www.npmjs.com/package/@react-native-community/datetimepicker)
+ - [React-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+ - [Unform](https://github.com/Rocketseat/unform)
+ - [Jest](https://jestjs.io/)
+ - [Yup](https://www.npmjs.com/package/yup)
+
 ## 💻 Getting started
 
 ### Requirements
@@ -78,18 +99,18 @@ Technologies used to develop frontend web
 
 > Obs.: Docker recommended
 
-**Clone the API project and access the folder**
+**Clone the project and access the main folder**
 
 ```bash
-$ git clone https://github.com/cassiogroh/gobarber-backend && cd gobarber-backend
-```
+$ git clone https://github.com/cassiogroh/GoBarber && cd GoBarber
 
-**Follow the steps below**
-
-```bash
 # Install the dependencies
 $ yarn
+```
 
+**Follow the steps below on folder packages/server**
+
+```bash
 # Make a copy of '.env.example' to '.env'
 # and set with YOUR environment variables.
 # The aws variables do not need to be filled for dev environment
@@ -119,14 +140,11 @@ $ yarn dev:server
 
 # Well done, server started!
 
-# Clone frontend web
-$ git clone https://github.com/cassiogroh/GoBarber && cd GoBarber
-
-# Install dependecies
-$ yarn install
-
-# Start react app
+# Start web client
 $ yarn start
+
+# Start mobile client
+$ yarn android / yarn ios
 
 # Well done, project is running!
 
