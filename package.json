@@ -1,0 +1,26 @@
+{
+  "name": "gobarber",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.ts",
+  "license": "MIT",
+  "repository": "https://github.com/cassiogroh/GoBarber.git",
+  "author": "cassiogroh <cassio_groh@hotmail.com>",
+  "scripts": {
+    "build:web": "cd ./packages/web && yarn run react-scripts build",
+    "build": "cd ./packages/server && yarn build",
+    "start": "cd ./packages/server && yarn start"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/typeorm",
+      "**/typeorm/**"
+    ]
+  }
+}
