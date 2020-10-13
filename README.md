@@ -64,49 +64,6 @@ Technologies used to develop this application
 |       [Husky](https://github.com/typicode/husky)      |          [Yup](https://www.npmjs.com/package/yup)         |                                                                                                      |
 |                                                       |     [uuid v4](https://github.com/thenativeweb/uuidv4/)    |                                                                                                      |
 
-<!-- Technologies used to develop API
-
-- [Node.js](https://nodejs.org/en/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Express](https://expressjs.com/pt-br/)
-- [Multer](https://github.com/expressjs/multer)
-- [TypeORM](https://typeorm.io/#/)
-- [JWT-token](https://jwt.io/)
-- [uuid v4](https://github.com/thenativeweb/uuidv4/)
-- [PostgreSQL](https://www.postgresql.org/)
-- [Date-fns](https://date-fns.org/)
-- [Jest](https://jestjs.io/)
-- [SuperTest](https://github.com/visionmedia/supertest)
-- [Husky](https://github.com/typicode/husky)
-
-Technologies used to develop frontend web
-- [ReactJS](https://reactjs.org/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Axios](https://github.com/axios/axios)
-- [Styled-components](https://styled-components.com/)
-- [Polished](https://polished.js.org/)
-- [Date-fns](https://date-fns.org/)
-- [React-day-picker](https://react-day-picker.js.org/)
-- [React-icons](https://react-icons.github.io/react-icons/)
-- [React-spring](https://www.react-spring.io/)
-- [Unform](https://github.com/Rocketseat/unform)
-- [Jest](https://jestjs.io/)
-- [Yup](https://www.npmjs.com/package/yup)
-- [uuid v4](https://github.com/thenativeweb/uuidv4/)
-
- Technologies used to develop frontend mobile
-- [React-native](https://reactnative.dev/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Axios](https://github.com/axios/axios)
-- [Styled-components](https://styled-components.com/)
-- [Date-fns](https://date-fns.org/)
-- [React-native-image-picker](https://www.npmjs.com/package/react-native-image-picker)
-- [React-native-datetime-picker](https://www.npmjs.com/package/@react-native-community/datetimepicker)
-- [React-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
-- [Unform](https://github.com/Rocketseat/unform)
-- [Jest](https://jestjs.io/)
-- [Yup](https://www.npmjs.com/package/yup) -->
-
 ## 💻 Getting started
 
 ### Requirements
